@@ -1,0 +1,97 @@
+{
+  "executed_at_utc": "2026-10-25T12:22:07.275562+00:00",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256": {
+    "src/Java/Algorithms.java": "8f7d50576557fabeee69bb90ce3cd1a3e679a1935560ae309d8df1b456d0343c",
+    "src/Java/Input.java": "e335f7a453e67c600a499b1d29bba89193cac1d1e7f4d71eeb8fea22a1954f98",
+    "src/Java/Json.java": "24c02d64b395041c7fead715eacc83f07ff8057b6c5f103a13bae19dbf345ad5",
+    "src/Java/Main.java": "176233f36342d2b6830d362e7d4051be1fa5ca650b31176facc504666efd4494",
+    "submission.json": "dff269c09b5a26ef936a2741a24633e5de05bd5d18dcbb0b6518bdb765e37e87",
+    "tests/verify.py": "f65b0f29811396c5c7fbd07436ea9f3f1e4ce43b70d871a1c59da80be6b72727",
+    "tests/AlgorithmChecks.java": "daeff5b80d1337cf2b4f858fd0c2be8ffd8ba570c6f9e8651f972b610e275eb0",
+    "tests/run_all.py": "f8c4c3a650660148934d3278f0da2c6659afecf9064a03d2c1162c0c1465f90c"
+  },
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\alnbu\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "tools/run.py",
+        "--setup"
+      ],
+      "passed": true,
+      "elapsed_seconds": 0.8719428000040352
+    },
+    {
+      "command": [
+        "C:\\Users\\alnbu\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "tools/run.py",
+        "--check"
+      ],
+      "passed": true,
+      "elapsed_seconds": 4.538740899995901
+    },
+    {
+      "command": [
+        "C:\\Users\\alnbu\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_*.py"
+      ],
+      "passed": true,
+      "elapsed_seconds": 1.9973488000105135
+    },
+    {
+      "command": [
+        "C:\\Users\\alnbu\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "tests/verify.py"
+      ],
+      "passed": true,
+      "elapsed_seconds": 12.148296699975617
+    },
+    {
+      "command": [
+        "javac",
+        "--release",
+        "17",
+        "-encoding",
+        "UTF-8",
+        "-cp",
+        ".build/Java",
+        "-d",
+        ".build/Java",
+        "tests/AlgorithmChecks.java"
+      ],
+      "passed": true,
+      "elapsed_seconds": 0.6003178000100888
+    },
+    {
+      "command": [
+        "java",
+        "-Xmx384m",
+        "-cp",
+        ".build/Java",
+        "AlgorithmChecks"
+      ],
+      "passed": true,
+      "elapsed_seconds": 0.15285749998292886
+    },
+    {
+      "command": [
+        "java",
+        "-Xmx384m",
+        "-cp",
+        ".build/Java",
+        "AlgorithmChecks",
+        "benchmark"
+      ],
+      "passed": true,
+      "elapsed_seconds": 3.5437343000085093
+    }
+  ],
+  "all_passed": true
+}

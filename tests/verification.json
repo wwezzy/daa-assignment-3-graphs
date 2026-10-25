@@ -1,0 +1,91 @@
+{
+  "executed_at_utc": "2026-10-25T12:22:02.322133+00:00",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "small_cases": 1788,
+  "named_boundaries": 44,
+  "random_cases": 720,
+  "exhaustive_directed_cases": 1024,
+  "mixed_requests_in_one_process": 3577,
+  "semantic_witness_checks": 13,
+  "scale": [
+    {
+      "name": "dsu_full_limits",
+      "n": 100000,
+      "m_or_q": 250000,
+      "passed": true
+    },
+    {
+      "name": "kruskal_full_limits",
+      "n": 100000,
+      "m_or_q": 250000,
+      "passed": true
+    },
+    {
+      "name": "prim_full_limits",
+      "n": 100000,
+      "m_or_q": 250000,
+      "passed": true
+    },
+    {
+      "name": "scc_deep_full_limits",
+      "n": 100000,
+      "m_or_q": 250000,
+      "passed": true
+    },
+    {
+      "name": "topo_deep_full_limits",
+      "n": 100000,
+      "m_or_q": 250000,
+      "passed": true
+    },
+    {
+      "name": "dag_negative_full_limits",
+      "n": 100000,
+      "m_or_q": 250000,
+      "passed": true
+    },
+    {
+      "name": "scc_deep_cycle_full_limits",
+      "n": 100000,
+      "m_or_q": 250000,
+      "passed": true
+    },
+    {
+      "name": "dag_unreachable_deep_cycle",
+      "n": 100000,
+      "m_or_q": 250000,
+      "passed": true
+    },
+    {
+      "name": "topo_deep_cycle_full_limits",
+      "n": 100000,
+      "m_or_q": 250000,
+      "passed": true
+    },
+    {
+      "name": "kruskal_large_parallel_star",
+      "n": 100000,
+      "m_or_q": 250000,
+      "passed": true
+    },
+    {
+      "name": "prim_large_parallel_star",
+      "n": 100000,
+      "m_or_q": 250000,
+      "passed": true
+    },
+    {
+      "name": "scc_many_condensation_edges",
+      "n": 100000,
+      "m_or_q": 250000,
+      "passed": true
+    },
+    {
+      "name": "dsu_balanced_full_limits",
+      "n": 100000,
+      "m_or_q": 250000,
+      "passed": true
+    }
+  ]
+}
